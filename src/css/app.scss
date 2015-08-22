@@ -4,8 +4,28 @@
 @import "base/variables";
 
 @import "modules/nav";
+@import "modules/home";
 
 #app {
   max-width: 1024px;
   margin: 0px auto;
+  padding: 0px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: $color-brand;
+  font-weight: $font-weight-bold;
+}
+
+@media screen and (min-width: 800px) {
+  #app {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  #app {
+    padding: 0px;
+  }
 }

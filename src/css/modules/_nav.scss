@@ -7,9 +7,10 @@
   @include unstyled-list;
   display: none;
   text-align: center;
-  font-weight: $font-weight-med;
+  font-weight: $font-weight-bold;
   font-size: 20px;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.9px;
+  font-family: $font-body;
 
   &:hover {
     color: blue;
