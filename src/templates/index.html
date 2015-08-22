@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="Hey, my name is Billy. I'm a web developer and a graduate student at Syracuse University." />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Open Graph -->
+    <meta name="og:title" content="Billy Ceskavich" />
+    <meta name="og:site_name" content="Billy Ceskavich" />
+    <meta name="og:description" content="Developer at BITS Lab. Engagement Fellow at Syracuse University. Sock enthusiast." />
+    <meta name="og:image" content="https://pbs.twimg.com/profile_images/539474205746540544/xRLvHKUl_400x400.jpeg" />
+    <meta name="og:url" content="http://www.ceskavich.com" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Billy Ceskavich" />
+    <meta name="twitter:creator" content="@ceskavich" />
+    <meta name="twitter:description" content="Developer at BITS Lab. Engagement Fellow at Syracuse University. Sock enthusiast." />
+    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/539474205746540544/xRLvHKUl_400x400.jpeg" />
+
+
+    <title>BC | Billy Ceskavich</title>
+
+    <!-- TODO: favicon -->
+
+    {% if (o.htmlWebpackPlugin.options.env !== 'development') { %}
+    <link rel="stylesheet" type="text/css" href="/assets/{%= o.webpack.assetsByChunkName.application[1] %}" />
+    {% } %}
+  </head>
+  <body>
+    <div id="app"></div>
+
+    {% if (o.htmlWebpackPlugin.options.env !== 'development') { %}
+    <script type="text/javascript" src="/assets/{%= o.webpack.assetsByChunkName.application[0] %}"></script>
+    {% } else { %}
+    <script type="text/javascript" src="{%= o.htmlWebpackPlugin.files.js[0] %}"></script>
+    {% } %}
+  </body>
+</html>
