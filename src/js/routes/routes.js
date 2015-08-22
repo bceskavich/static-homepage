@@ -6,6 +6,7 @@ import HomePage from '../pages/HomePage';
 let routes = (
   <Route name='home' path='/' handler={App}>
     <Route handler={HomePage} />
+    <Route name='#' handler={HomePage} />
   </Route>
 );
 

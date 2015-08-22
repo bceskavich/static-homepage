@@ -1,0 +1,11 @@
+@import "patterns";
+
+@import "base/default";
+@import "base/variables";
+
+@import "modules/nav";
+
+#app {
+  max-width: 1024px;
+  margin: 0px auto;
+}
