@@ -23,11 +23,6 @@ export default class Nav extends Component {
           />
           <NavItem
             currentPath={path}
-            linkPath='#'
-            title='ABOUT'
-          />
-          <NavItem
-            currentPath={path}
             linkPath='/portfolio'
             title='WORK'
           />

@@ -42,7 +42,6 @@ export default class HomePage extends Component {
           <li className='home__icons-item'>
             <a
               className='home__icons-link'
-              target='_blank'
               href='https://github.com/bceskavich'
             >
               <i className="fa fa-github"></i>
@@ -51,7 +50,6 @@ export default class HomePage extends Component {
           <li className='home__icons-item'>
             <a
               className='home__icons-link'
-              target='_blank'
               href='https://linkedin.com/in/ceskavich'
             >
               <i className="fa fa-linkedin"></i>
@@ -60,7 +58,6 @@ export default class HomePage extends Component {
           <li className='home__icons-item'>
             <a
               className='home__icons-link'
-              target='_blank'
               href='https://twitter.com/ceskavich'
             >
               <i className="fa fa-twitter"></i>
@@ -69,7 +66,6 @@ export default class HomePage extends Component {
           <li className='home__icons-item'>
             <a
               className='home__icons-link'
-              target='_blank'
               href='https://instagram.com/ceskavich'
             >
               <i className="fa fa-instagram"></i>

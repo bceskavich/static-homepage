@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import bc from '../../../files/bc.pdf';
 import ResumeItem from './ResumeItem';
 
 export default class ResumeSection extends Component {
@@ -29,7 +30,7 @@ export default class ResumeSection extends Component {
           sectionClass.match('--left') && window.innerWidth > 1024 &&
             <div>
               <hr />
-              <p>Download a PDF copy <a href='#'>here</a>.</p>
+              <p>Download a PDF copy <a href={bc}>here</a>.</p>
             </div>
         }
       </div>

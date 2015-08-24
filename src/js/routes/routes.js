@@ -10,9 +10,6 @@ let routes = (
     <Route handler={HomePage} />
     <Route name='resume' path='/resume' handler={ResumePage} />
     <Route name='portfolio' path='/portfolio' handler={PortfolioPage} />
-
-
-    <Route name='#' handler={HomePage} />
   </Route>
 );
 
