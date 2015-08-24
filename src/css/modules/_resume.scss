@@ -13,13 +13,14 @@
 .resume-item__when {
   font-size: 14px;
   margin-top: 5px;
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-reg;
   font-style: italic;
 }
 
 .resume-item__details {
   line-height: 1.5;
   font-size: 14px;
+  font-weight: $font-weight-reg;
 
   li {
     padding-bottom: 10px;

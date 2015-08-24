@@ -31,6 +31,7 @@
   font-size: 14px;
   line-height: 1.5;
   padding: 20px 0px;
+  font-weight: $font-weight-reg;
 }
 
 .portfolio-links {
@@ -62,6 +63,7 @@
 
   .portfolio-description {
     font-size: 15px;
+    font-weight: $font-weight-light;
   }
 
   .portfolio-links__item {
@@ -86,7 +88,7 @@
   }
 
   .portfolio-description {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .portfolio-links__item {
