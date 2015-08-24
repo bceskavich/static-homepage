@@ -1,0 +1,81 @@
+.resume hr {
+  border: none;
+  height: 1px;
+  background-color: $color-border;
+}
+
+.resume-section__title {
+  font-family: $font-header;
+  font-weight: $font-weight-med;
+  font-size: 24px;
+  border-bottom: 1px solid $color-brand;
+}
+
+.resume-item__title {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.resume-item__when {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: $font-weight-light;
+  font-style: italic;
+}
+
+.resume-item__details {
+  line-height: 1.5;
+  font-size: 14px;
+
+  li {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .resume-item__details {
+    @include unstyled-list;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .resume-item__details {
+    li {
+      padding-bottom: 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .resume-section--left,
+  .resume-section--right {
+    vertical-align: top;
+  }
+
+  .resume-section--left {
+    float: left;
+    width: 330px;
+    padding-right: 30px;
+  }
+
+  .resume-section--right {
+    float: right;
+    width: calc(100% - 360px);
+  }
+
+  .resume-section__title {
+    font-size: 30px;
+  }
+
+  .resume-item__title {
+    font-size: 22px;
+  }
+
+  .resume-item__when {
+    font-size: 16px;
+  }
+
+  .resume-item__details {
+    font-size: 15px;
+  }
+}

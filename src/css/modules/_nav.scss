@@ -30,6 +30,10 @@
   color: $color-body;
   text-decoration: none;
   padding: 20px;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .nav__icon {

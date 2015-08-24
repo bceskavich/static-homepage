@@ -15,8 +15,7 @@ module.exports = merge(baseConfig, {
       {
         test: /\.js$/,
         loaders: ['babel-loader?stage=0'],
-        include: path.join(__dirname, '../src/js'),
-        exclude: /node_modules/
+        exclude: [/node_modules/, /config/]
       },
       {
         test: /\.scss$/,

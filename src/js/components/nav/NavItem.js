@@ -17,7 +17,7 @@ export default class NavItem extends Component {
     return (
       <li className='nav__links-item'>
         <Link
-          className={currentPath.match(linkPath) ? linkClassActive : linkClass}
+          className={currentPath === linkPath ? linkClassActive : linkClass}
           to={linkPath}
         >{title}</Link>
       </li>

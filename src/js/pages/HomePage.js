@@ -1,6 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 export default class HomePage extends Component {
+
+  static propTypes = {
+    resetNav: PropTypes.func.isRequired
+  }
+
+  constructor(props) {
+    super(props);
+
+    const { resetNav } = this.props;
+    resetNav();
+  }
+
   render() {
     return (
       <div className='home'>

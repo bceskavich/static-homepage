@@ -20,8 +20,7 @@ module.exports = merge(baseConfig, {
       {
         test: /\.js$/,
         loaders: ['react-hot', 'babel-loader?stage=0'],
-        include: path.join(__dirname, '../src'),
-        exclude: /node_modules/
+        exclude: [/node_modules/, /config/]
       },
       {
         test: /app.scss$/,

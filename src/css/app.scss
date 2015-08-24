@@ -5,6 +5,7 @@
 
 @import "modules/nav";
 @import "modules/home";
+@import "modules/resume";
 
 #app {
   max-width: 1024px;
@@ -16,6 +17,10 @@ a {
   text-decoration: none;
   color: $color-brand;
   font-weight: $font-weight-bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 @media screen and (min-width: 800px) {
