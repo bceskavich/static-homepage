@@ -1,7 +1,9 @@
 import React, { Component, PropTypes } from 'react';
+import Favicon from 'react-favicon';
 import { RouteHandler } from 'react-router';
 import ga, { Initializer } from 'react-google-analytics';
 import Nav from './components/nav/Nav';
+import favicon from '../img/favicon.ico';
 
 export default class App extends Component {
 
@@ -39,6 +41,7 @@ export default class App extends Component {
 
     return (
       <div className='content'>
+        <Favicon url={favicon} />
         <Nav
           path={path}
           navListClass={navListClass}
