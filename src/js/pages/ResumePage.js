@@ -2,9 +2,10 @@ import React, { Component, PropTypes } from 'react';
 import keys from 'lodash/object/keys';
 import capitalize from 'lodash/string/capitalize';
 import resume from '../../../lib/resume';
+import Analyze from '../utils/hocs/Analyze';
 import ResumeSection from '../components/resume/ResumeSection';
 
-export default class ResumePage extends Component {
+class ResumePage extends Component {
 
   static propTypes = {
     resetNav: PropTypes.func.isRequired
@@ -35,3 +36,5 @@ export default class ResumePage extends Component {
     );
   }
 }
+
+export default Analyze(ResumePage, 'ResumePage');

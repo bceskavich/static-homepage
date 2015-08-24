@@ -1,8 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 import portfolio from '../../../lib/portfolio';
 import PortfolioItem from '../components/portfolio/PortfolioItem';
+import Analyze from '../utils/hocs/Analyze';
 
-export default class PortfolioPage extends Component {
+class PortfolioPage extends Component {
 
   static propTypes = {
     resetNav: PropTypes.func.isRequired
@@ -32,3 +33,5 @@ export default class PortfolioPage extends Component {
     );
   }
 }
+
+export default Analyze(PortfolioPage, 'PortfolioPage');

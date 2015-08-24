@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
+import Analyze from '../utils/hocs/Analyze';
 
-export default class HomePage extends Component {
+class HomePage extends Component {
 
   static propTypes = {
     resetNav: PropTypes.func.isRequired
@@ -76,3 +77,5 @@ export default class HomePage extends Component {
     );
   }
 }
+
+export default Analyze(HomePage, 'HomePage');
