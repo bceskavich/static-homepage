@@ -11,7 +11,7 @@
     "lint": "eslint src",
     "dev": "npm run clean && nodemon dev-server.js",
     "build": "npm run clean && webpack --progress --colors --config config/webpack.production.js",
-    "stage": "NODE_ENV=production npm run build && surge --project ./build --domain ceskavich.surge.sh"
+    "stage": "NODE_ENV=staging npm run build && surge --project ./build --domain ceskavich.surge.sh"
   },
   "author": "BEM 2015",
   "license": "",

@@ -19,8 +19,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.(jpe?g|png|gif|svg)$/i, loader: 'url-loader?limit=8192' },
-      { test: /\.ico$/, loader: 'url-loader'}
+      { test: /\.(jpe?g|png|gif|svg|ico|pdf)$/i, loader: 'url-loader?limit=8192' }
     ]
   },
   plugins: [

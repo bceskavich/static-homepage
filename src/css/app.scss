@@ -6,11 +6,16 @@
 @import "modules/nav";
 @import "modules/home";
 @import "modules/resume";
+@import "modules/portfolio";
 
 #app {
   max-width: 1024px;
   margin: 0px auto;
   padding: 0px 15px;
+}
+
+.body {
+  margin-top: 20px;
 }
 
 a {
@@ -23,9 +28,19 @@ a {
   }
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: $color-border;
+}
+
 @media screen and (min-width: 800px) {
   #app {
     padding: 0px 20px;
+  }
+
+  .body {
+    margin-top: 40px;
   }
 }
 
