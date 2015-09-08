@@ -13,8 +13,5 @@ module.exports = {
       path: path.join(__dirname, '../build/assets'),
       htmlPath: 'index.html'
     }
-  },
-  analytics: {
-    ga: 'UA-45414156-1'
   }
 };
