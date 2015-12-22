@@ -26,13 +26,17 @@ class HomePage extends Component {
 
         <ul className='home__taglines'>
           <li className='home__taglines-item'>
-            Developer at <a href="http://bits.ischool.syr.edu/" target="_blank">
-            BITS Lab</a>.
+            Full stack engineer at <a href='http://voxmedia.com/' target='_blank'>
+            Vox Media</a>.
           </li>
           <li className='home__taglines-item'>
-            Engagement Fellow at
-            the <a href="http://ischool.syr.edu/" target="_blank">
-            Syracuse University iSchool</a>.
+            Previously with: <a href='http://madebymany.com/' target='_blank'>
+              Made by Many
+            </a>, <a href='http://about.twitter.com/' target='_blank'>
+              Twitter
+            </a>, <a href='http://evernote.com/' target='_blank'>
+              Evernote
+            </a>.
           </li>
           <li className='home__taglines-item'>
             Sock enthusiast.
