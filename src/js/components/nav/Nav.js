@@ -26,11 +26,6 @@ export default class Nav extends Component {
             linkPath='/portfolio'
             title='WORK'
           />
-          <NavItem
-            currentPath={path}
-            linkPath='/resume'
-            title='RESUME'
-          />
         </ul>
         <div
           className={navIconClass}

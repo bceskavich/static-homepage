@@ -30,7 +30,7 @@ class HomePage extends Component {
             Vox Media</a>.
           </li>
           <li className='home__taglines-item'>
-            Previously with: <a href='http://madebymany.com/' target='_blank'>
+            Previously: <a href='http://madebymany.com/' target='_blank'>
               Made by Many
             </a>, <a href='http://about.twitter.com/' target='_blank'>
               Twitter

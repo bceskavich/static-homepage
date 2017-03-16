@@ -27,11 +27,13 @@ export default class ResumeSection extends Component {
           })
         }
         {
+          /*
           sectionClass.match('--left') && window.innerWidth > 1024 &&
             <div>
               <hr />
               <p>Download a PDF copy <a href={bc}>here</a>.</p>
             </div>
+          */
         }
       </div>
     );
