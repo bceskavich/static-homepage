@@ -24,7 +24,7 @@ export default class Nav extends Component {
           <NavItem
             currentPath={path}
             linkPath='/portfolio'
-            title='WORK'
+            title='PROJECTS'
           />
         </ul>
         <div
