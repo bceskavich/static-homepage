@@ -38,9 +38,6 @@ class HomePage extends Component {
               Evernote
             </a>.
           </li>
-          <li className='home__taglines-item'>
-            Sock enthusiast.
-          </li>
         </ul>
 
         <ul className='home__icons'>
